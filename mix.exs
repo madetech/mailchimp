@@ -23,8 +23,8 @@ defmodule Mailchimp.Mixfile do
   end
 
   defp deps do
-    [{:httpoison, "~> 0.6"},
-     {:poison, "~> 1.4"}]
+    [{:httpoison},
+     {:poison}]
   end
 
   defp package do
