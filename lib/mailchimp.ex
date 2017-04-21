@@ -89,7 +89,7 @@ defmodule Mailchimp do
     end
   end
   
-  defp apikey
+  defp apikey do
     Application.get_env :mailchimp, :apikey
   end
 end
