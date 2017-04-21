@@ -23,7 +23,9 @@ defmodule Mailchimp.Mixfile do
   end
 
   defp deps do
-    []
+    [{:httpoison, "~> 0.11.1"},
+     {:poison, "~> 2.0"},
+     {:hackney, "1.6.1", override: true}]
   end
 
   defp package do
